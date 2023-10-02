@@ -130,7 +130,7 @@ export default function Home() {
                 style={styles.preview}
                 ref={(ref) => setCamera(ref)}
                 type={Camera.Constants.Type.back}
-            >
+            />
             </View>
             {image && <Image source={{ uri: image }} style={{ width: 300, height: 300 }} />}
             {pictures.length > 0 && (
